@@ -38,7 +38,7 @@ public class LoginController{
 		}
 		if (textPasswd.getText().isEmpty()) {
 			showAlert(Alert.AlertType.ERROR, owner, "Form Error!",
-					"Please enter a password");
+					"Please enter a password ");
 			return;
 		}
 		
