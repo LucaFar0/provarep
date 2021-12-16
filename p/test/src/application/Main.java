@@ -12,7 +12,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage)  throws Exception {
 
-		var loader = new FXMLLoader(getClass().getClassLoader().getResource("application/Diocanaglia.fxml"));
+		var loader = new FXMLLoader(getClass().getClassLoader().getResource("application.Diocanaglia.fxml"));
 		Parent root = loader.load();
 		
 		Scene scene = new Scene(root, 700, 500);
